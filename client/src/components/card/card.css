@@ -1,0 +1,29 @@
+.card {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    min-width: 200px;
+    position: absolute;
+    border-radius: 6px;
+    top: calc(100% + 0.5rem);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 16%) 0px 6px 12px;
+    z-index: 100;
+    left: auto;
+    right: 0px;
+}
+
+.card-item {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    word-break: break-all;
+    color: rgb(55, 63, 80);
+    display: flex;
+    align-items: center;
+
+}
+.card-item:hover {
+    background: rgb(246, 249, 252);
+}
+.card-item-flag {
+    margin-right: 1rem;
+}

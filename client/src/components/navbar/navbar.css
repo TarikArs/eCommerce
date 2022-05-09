@@ -1,0 +1,14 @@
+.navbar {
+    background-color: #fff;
+    display: flex;
+    position: fixed;
+    top: 40px;
+    right: 0px;
+    left: 0px;
+    transition: all 250ms ease-in-out 0s;
+    z-index: 99;
+}
+
+.logo {
+    width: 150px;
+}
