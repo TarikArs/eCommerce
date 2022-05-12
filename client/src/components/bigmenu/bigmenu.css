@@ -1,0 +1,31 @@
+.bigmenu {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 16%) 0px 6px 12px;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 10px;
+
+}
+.bigmenu-header {
+    padding: 0.5rem 1rem;
+    color: #000;
+    align-items: center;
+    background: rgb(243, 245, 249);
+    border-radius: 5px;
+}
+.bigmenu-item {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    word-break: break-all;
+    color: rgb(55, 63, 80);
+    display: flex;
+    align-items: center;
+
+}
+.bigmenu-item:hover {
+    background: rgb(246, 249, 252);
+}
+.bigmenu-item-flag {
+    margin-right: 1rem;
+}
