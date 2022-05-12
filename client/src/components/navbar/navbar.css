@@ -12,3 +12,78 @@
 .logo {
     width: 150px;
 }
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.icon-container {
+
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-left: 1.5rem;
+    color: #000;
+    background: rgb(243, 245, 249);
+    cursor: pointer;
+}
+
+.search-bar-icon {
+    position: absolute;
+    color: rgb(125, 135, 156);
+    padding-left: 1rem;
+    z-index: 1;
+}
+
+.search-bar-input-container {
+    display: contents;
+    position: relative;
+}
+
+.search-bar-input {
+    position: relative;
+    flex: 1 1 0px;
+    padding-left: 3rem;
+    padding-right: 11.5rem;
+    height: 44px;
+    border-radius: 300px;
+    height: 40px;
+    font-size: inherit;
+    color: rgb(43, 52, 69);
+    border: 1px solid rgb(218, 225, 231);
+    width: 100%;
+    outline: none;
+    font-family: inherit;
+}
+
+.search-bar-categories {
+    position: absolute;
+    right: 12px;
+    border-left: 1px solid #bba4a3;
+    padding-left: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #7d879c;
+    cursor: pointer;
+}
+
+.badge {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(233, 69, 96);
+    align-items: center;
+    justify-content: center;
+    padding: 2px 5px;
+    margin-left: 1.5rem;
+    margin-top: -35px;
+    border-radius: 300px;
+}
