@@ -7324,7 +7324,7 @@
     "strip-ansi" "^6.0.1"
     "text-table" "^0.2.0"
 
-"react-dom@^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react-dom@^18.0.0", "react-dom@^18.1.0", "react-dom@>=16.14.0", "react-dom@>=16.6.0":
+"react-dom@^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react-dom@^18.0.0", "react-dom@^18.1.0", "react-dom@>=16.14.0", "react-dom@>=16.6.0", "react-dom@>=16.8.0":
   "integrity" "sha512-fU1Txz7Budmvamp7bshe4Zi32d0ll7ect+ccxNu9FlObT605GOEB8BfO4tmRJ39R5Zj831VCpvQ05QPBW5yb+w=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.1.0.tgz"
   "version" "18.1.0"
@@ -7361,6 +7361,11 @@
   "integrity" "sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA=="
   "resolved" "https://registry.npmjs.org/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz"
   "version" "3.0.4"
+
+"react-rating-stars-component@^2.2.0":
+  "integrity" "sha512-A3lgLxumfFQQicKQmxacZ91fq/zRaVWlCPnVodJmJV6obvod4/yCotetN9WuyBiUfnKsEFDBo/8B85ocwmL7ng=="
+  "resolved" "https://registry.npmjs.org/react-rating-stars-component/-/react-rating-stars-component-2.2.0.tgz"
+  "version" "2.2.0"
 
 "react-refresh@^0.11.0", "react-refresh@>=0.10.0 <1.0.0":
   "integrity" "sha512-F27qZr8uUqwhWZboondsPx8tnC3Ct3SxZA3V5WyEvujRyyNv0VYPhoBg1gZ8/MV5tubQp76Trw8lTv9hzRBa+A=="
@@ -7421,6 +7426,11 @@
     "workbox-webpack-plugin" "^6.4.1"
   optionalDependencies:
     "fsevents" "^2.3.2"
+
+"react-simple-star-rating@^4.0.2":
+  "integrity" "sha512-6wZn4ZikFwUdekAZ/QcjER2tunHKmQGNDgtxtkQCh8KRamB/x2IOlBuE6xa4VN2ajltcouyTXOAzxdzRHJREYw=="
+  "resolved" "https://registry.npmjs.org/react-simple-star-rating/-/react-simple-star-rating-4.0.2.tgz"
+  "version" "4.0.2"
 
 "react-slideshow-image@^3.7.5":
   "integrity" "sha512-f+E7LBeJn2TPf8Gj5HF2qtNkU3vb9A/S/VHMKaALybfw+l7P/0l0k6CD7dmEpTaB6WTc7XcYVSpxZ6+pM8gzQQ=="
