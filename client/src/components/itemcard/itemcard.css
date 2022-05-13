@@ -12,6 +12,9 @@
     justify-content: space-between;
 
 }
+.item-card-footer {
+    margin-left: 10%;
+}
 
 .sold-badge {
     display: inline-flex;
@@ -26,11 +29,14 @@
 .item-card-image {
     display: flex;
     align-items: center;
-    justify-content: center;
     margin-top: 10%;
+    justify-content: center;
+
 
 }
 .item-card-bottom {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-right: 20%;
+    margin-top: 5%;
 }
