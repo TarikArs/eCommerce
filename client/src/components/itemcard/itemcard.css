@@ -1,12 +1,12 @@
 .item-card {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    min-width: 200px;
-    max-width: 250px;
+    min-width: 20%;
+    max-width: 20%;
     border-radius: 6px;
     background-color: rgb(255, 255, 255);
     box-shadow: rgb(0 0 0 / 16%) 0px 6px 12px;
-    height: 400px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -37,6 +37,34 @@
 .item-card-bottom {
     display: flex;
     justify-content: space-between;
-    padding-right: 20%;
+    padding-right: 5%;
     margin-top: 5%;
+}
+.item-card-add {
+    display: flex;
+    width: unset;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    background: transparent;
+    transition: all 150ms ease-in-out 0s;
+    line-height: 1;
+    color: rgb(233, 69, 96);
+    border: 1px solid rgb(255, 225, 230);
+    padding: 3px;
+    border-radius: 5px;
+
+}
+.item-card-add:hover {
+    color: rgb(255, 225, 230);
+    background: rgb(233, 69, 96);
+}
+.item-card-price {
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 0.5rem;
+    color: rgb(233, 69, 96);
 }
