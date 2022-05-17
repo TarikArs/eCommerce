@@ -46,7 +46,8 @@ export default function Category({ title, icon, link }: CategoryProps) {
     <div className="category">
       <div className="category-header">
         <div className="category-header-title">
-          <i className="fa-solid fa-bolt category-icon"></i>
+          {icon ? icon : <i className="fa-solid fa-bolt category-icon"></i>}
+
           <div>
             <h3>{title}</h3>
           </div>

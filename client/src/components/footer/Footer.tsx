@@ -28,7 +28,7 @@ export default function Footer() {
       </div>
       <div className="footer-center-1 col 3">
         <div className="footer-center-title">
-          <h2>About us</h2>
+          <h4>About us</h4>
         </div>
         <div className="footer-center-list">
           <ul className="ul-footer">
@@ -41,7 +41,7 @@ export default function Footer() {
       </div>
       <div className="footer-center-1 col 3">
         <div className="footer-center-title">
-          <h2>Customer Care</h2>
+          <h4>Customer Care</h4>
         </div>
         <div className="footer-center-list">
           <ul className="ul-footer">
@@ -54,7 +54,7 @@ export default function Footer() {
       </div>
       <div className="footer-right col 3">
         <div className="footer-center-title">
-          <h2>Contact Us</h2>
+          <h4>Contact Us</h4>
           <p>70 Washington Square South, New York, NY 10012, United States</p>
           <p>Email: uilib.help@gmail.com</p>
           <p>Phone: +1 1123 456 780</p>
