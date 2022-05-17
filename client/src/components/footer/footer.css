@@ -1,1 +1,31 @@
-
+.footer {
+    box-shadow: none;
+    cursor: unset;
+    background-color: rgb(15, 52, 96);
+    color: #fff;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+}
+.footer-left-buttons {
+    display: flex;
+}
+.footer-left-buttons-img {
+    width: 100px;
+    margin-right: 10px;
+}
+.footer-left-text {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.ul-footer {
+    list-style: none;
+    padding: 0;
+}
+.ul-footer > li {
+  margin-bottom: 2%;
+}
+.ul-footer > li:hover {
+    color: rgb(233, 69, 96);
+    cursor: pointer;
+}

@@ -25,7 +25,7 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <div className="logo-container col-2">
-        <img className="logo" src="./assets/logo.jpg" alt="logo" />
+        <img className="logo" src="./assets/logo.png" alt="logo" />
       </div>
       <div className="search-bar col-6">
         <div className="search-bar-icon">
